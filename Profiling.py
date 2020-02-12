@@ -13,7 +13,7 @@ def dist(x1,x2):
 #Output video format and location
 fourcc = cv2.VideoWriter_fourcc('M','P','E','G')
 #tracker =cv2.TrackerBoosting_create()
-out = cv2.VideoWriter("final_output_1.avi", fourcc, 5.0, (frame_width,frame_height))
+out = cv2.VideoWriter("Output.avi", fourcc, 5.0, (frame_width,frame_height))
 
 #get first two frames of input video
 ret, frame1 = cap.read()
