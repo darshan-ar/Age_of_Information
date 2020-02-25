@@ -2,6 +2,7 @@ import turtle
 import game_settings
 
 
+
 wn = turtle.Screen()
 wn.title("AoI Concept")
 turtle.fd(0)
@@ -75,7 +76,7 @@ class Enemy1(turtle.Turtle):
 		if (self.freq1==30.):
 			#(x_z, y_z) = self.pos()
 			#self.goto(x_z,y_z+100)
-			self.dot(5,'blue')
+			self.dot(30,'blue')
 		if (self.freq1==0):
 			#self.goto(x_z, y_z)
 			self.clear()
@@ -162,7 +163,7 @@ class Enemy2(turtle.Turtle):
 		if (self.freq2==50.):
 			#(x_z, y_z) = self.pos()
 			#self.goto(x_z,y_z+100)
-			self.dot(8,'red')
+			self.dot(30,'red')
 		if (self.freq2==0):
 			self.clear()
 			self.enemy2_fire()
@@ -229,7 +230,7 @@ class Enemy3(turtle.Turtle):
 		if (self.freq3==40):
 			#(x_z, y_z) = self.pos()
 			#self.goto(x_z,y_z+100)
-			self.dot(10,'brown')
+			self.dot(30,'brown')
 		if (self.freq3==0):
 			self.clear()
 			self.enemy3_fire()
@@ -277,7 +278,6 @@ turtle.onkey(player.accelerate,"Up")
 while True:
 
 	# enemy 1 loop
-
 	for enemy1 in enemies1:
 		enemy1.move1()
 		enemy1.move_bullet1(enemy1.bullet_list1)

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9a63ec69-6a58-4ea4-a311-dffbe67a9c36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/LSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output.avi" beforeDir="false" afterPath="$PROJECT_DIR$/Output.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Profiling">
+  <component name="RunManager" selected="Python.video_game">
     <configuration name="Profiling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Age_of_Information" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Profiling" />
         <item itemvalue="Python.video_game" />
+        <item itemvalue="Python.Profiling" />
         <item itemvalue="Python.State_Removed" />
       </list>
     </recent_temporary>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581962761382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LSTM code">
+      <created>1581975523879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581975523879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
